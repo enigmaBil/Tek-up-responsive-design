@@ -114,40 +114,58 @@ footer a {
 }
 
 /* Partie responsive design */
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   main {
     min-height: 87.5vh;
   }
+  .content > img {
+    width: 10rem;
+    margin-bottom: -2rem;
+}
+.input-group-form {
+  width: 55vw;
+}
   footer{
     display: none;
   }
 }
-@media (min-width: 360px) {
-  main {
-    min-height: 87.5vh;
+@media (max-width: 360px) {
+  footer{
+    display: none;
   }
+  .content > img {
+    width: 15rem;
+    margin-bottom: -3rem;
+}
+.input-group-form {
+  width: 60vw;
+}
+}
+@media (max-width: 500px) {
+  .content > img {
+    width: 15rem;
+    margin-bottom: -3rem;
+}
+.input-group-form {
+  width: 60vw;
+}
   footer{
     display: none;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   main {
-    min-height: 87.5vh;
+    min-height: 85.5vh;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {
   main {
-    min-height: 87.5vh;
-  }
-}
-@media (min-width: 992px) {
-  main {
-    min-height: 87.5vh;
+    min-height: 80.5vh;
   }
 }
 @media (min-width: 1200px) {
   main {
-    min-height: 87.5vh;
+    min-height: 85.3vh;
   }
 }
