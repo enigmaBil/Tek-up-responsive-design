@@ -88,18 +88,66 @@ body {
   text-decoration: none;
   color: rgba(120, 161, 250, 0.89);
 }
-footer{
+footer {
   background: #1d1c1c;
 }
-footer>section:first-child{
-  padding: 10px 0; border-bottom:1px solid #efef ;
+footer > section:first-child {
+  padding: 10px 0;
+  border-bottom: 1px solid #efef;
 }
-footer>section>p{
-  margin: 0 1rem; color: #efef;
+footer > section > p {
+  margin: 0 1rem;
+  color: #efef;
 }
-footer a{
-  margin-right: 0.5rem; text-decoration: none;color: #efef;font-size: .8em;font-weight: 100;
+footer a {
+  margin-right: 0.5rem;
+  text-decoration: none;
+  color: #efef;
+  font-size: 0.8em;
+  font-weight: 100;
 }
-.f-hint{
-  margin: 0 1rem;padding: 5px 0;display: flex;justify-content: space-between;
+.f-hint {
+  margin: 0 1rem;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Partie responsive design */
+@media (min-width: 320px) {
+  main {
+    min-height: 87.5vh;
+  }
+  footer{
+    display: none;
+  }
+}
+@media (min-width: 360px) {
+  main {
+    min-height: 87.5vh;
+  }
+  footer{
+    display: none;
+  }
+}
+@media (min-width: 500px) {
+  main {
+    min-height: 87.5vh;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    min-height: 87.5vh;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    min-height: 87.5vh;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    min-height: 87.5vh;
+  }
 }
