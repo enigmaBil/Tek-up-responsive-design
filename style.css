@@ -129,14 +129,14 @@ footer a {
 .input-group-form {
   width: 55vw;
 }
-  footer{
+  /* footer{
     display: none;
-  }
+  } */
 }
 @media (max-width: 360px) {
-  footer{
+  /* footer{
     display: none;
-  }
+  } */
   .content > img {
     width: 15rem;
     margin-bottom: -3rem;
@@ -153,9 +153,9 @@ footer a {
 .input-group-form {
   width: 60vw;
 }
-  footer{
+  /* footer{
     display: none;
-  }
+  } */
 }
 @media (min-width: 768px) {
   /* main {
