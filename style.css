@@ -90,6 +90,10 @@ body {
 }
 footer {
   background: #1d1c1c;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 footer > section:first-child {
   padding: 10px 0;
@@ -154,18 +158,18 @@ footer a {
   }
 }
 @media (min-width: 768px) {
-  main {
+  /* main {
     min-height: 85.5vh;
-  }
+  } */
 }
 
 @media (max-width: 992px) {
-  main {
+  /* main {
     min-height: 80.5vh;
-  }
+  } */
 }
 @media (min-width: 1200px) {
-  main {
+  /* main {
     min-height: 85.3vh;
-  }
+  } */
 }
