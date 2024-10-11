@@ -186,6 +186,7 @@ html{
 .hero>.container {
     display: flex;
     flex-direction: row;
+    height: 60vh;
 }
 .hero-image {
     width: 40vw;
@@ -198,4 +199,12 @@ html{
     align-items: center;
     flex-direction: row;
 }
+.site-content {
+        width: 25vw;
+        text-align: justify;
+    }
+    .site-imge {
+        width: 25vw;
+        margin: 10px 0;
+    }
 }
