@@ -12,11 +12,9 @@ html{
     background: linear-gradient(to right, rgb(248, 87, 166), rgb(255, 88, 88));
 }
 
-.title-img{
-    width: 50%;
-    transform: rotate(35deg);
-}
+
 .big-heading, .testimonial-text{
+    text-align: center;
     font-size: 3.2em;
     line-height: 4rem;
     color: #fff;
@@ -25,15 +23,49 @@ html{
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 768px) {
+    
+.title-img{
+    display: inline;
+    width: 50%;
+    transform: rotate(35deg);
+}
+.big-heading, .testimonial-text{
+    text-align: left;
+    font-size: 3.2em;
+    line-height: 4rem;
+    color: #fff;
+}
    
 }
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 1024px) {
     
+.title-img{
+    display: inline;
+    width: 50%;
+    transform: rotate(35deg);
+}
+.big-heading, .testimonial-text{
+    text-align: left;
+    font-size: 3.2em;
+    line-height: 4rem;
+    color: #fff;
+}
 }
 
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 1280px) {
-
+    .title-img{
+        display: inline;
+    width: 50%;
+    transform: rotate(35deg);
 }
+.big-heading, .testimonial-text{
+    text-align: left;
+    font-size: 3.2em;
+    line-height: 4rem;
+    color: #fff;
+}
+}
+
